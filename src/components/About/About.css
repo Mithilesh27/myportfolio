@@ -1,0 +1,69 @@
+.code {
+  height: 4rem;
+  width: 4rem;
+  object-fit: cover;
+  margin-right: 2rem;
+}
+.web {
+  height: 3rem;
+  width: 3rem;
+  object-fit: cover;
+  margin-right: 2rem;
+}
+#about {
+  overflow: hidden;
+  width: 100vw;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.aboutTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 3 rem;
+  margin-bottom: 1.5rem;
+  color: orange;
+}
+.aboutDescription {
+  font-weight: 200;
+  font-size: 1rem;
+  max-width: 60rem;
+  padding: 0 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.work {
+  margin: 5rem auto;
+}
+.workBar {
+  display: flex;
+  margin: 1.5rem;
+  text-align: left;
+  margin: 1rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  background-color: rgb(50, 50, 50);
+}
+.workBar h2 {
+  color: blue;
+}
+@media screen and (max-width: 700px) {
+  .workBar {
+    font-size: 2vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .workBar {
+    font-size: 3vw;
+  }
+  .code {
+    height: 2.25rem;
+    width: 2.25rem;
+  }
+  .workBarText {
+    font-size: 5vw;
+  }
+}

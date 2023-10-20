@@ -1,0 +1,58 @@
+.projects {
+  min-height: calc(100vh-5rem);
+  width: 100vw;
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem auto;
+  text-align: center;
+  padding: 0 1rem;
+}
+.calculator {
+  object-fit: cover;
+  height: 11rem;
+  width: 12rem;
+  margin: 1rem;
+}
+.colorpicker {
+  object-fit: cover;
+  height: 11rem;
+  width: 12rem;
+  margin: 1rem;
+}
+.projectsList {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  max-width: 60rem;
+  flex-wrap: wrap;
+}
+.projectContent {
+  display: flex;
+  flex-direction: column;
+}
+.projectLinks {
+  display: flex;
+  justify-content: space-between;
+}
+.Title {
+  margin: 1rem 0;
+  font-size: 3rem;
+  color: orange;
+}
+.demo,
+.code {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+.demo:hover,
+.code:hover {
+  color: yellow;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}

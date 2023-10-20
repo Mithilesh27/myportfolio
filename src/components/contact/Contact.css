@@ -1,0 +1,46 @@
+.contactDesc {
+  padding: 3rem;
+  font-weight: 300;
+  font-size: medium;
+}
+.contactForm {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  max-width: 60rem;
+}
+input,
+textarea {
+  background-color: white;
+}
+#contactme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem auto;
+}
+.Name,
+.email,
+.msg {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: black;
+  border: none;
+  border-radius: 0.5rem;
+}
+.submit {
+  background-color: rgb(99, 99, 214);
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.7rem;
+  color: white;
+  font-weight: 600;
+  margin: 2rem;
+}

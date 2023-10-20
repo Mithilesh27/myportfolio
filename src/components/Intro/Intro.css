@@ -1,0 +1,50 @@
+.intro {
+  height: calc(100vh-5rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.backgroundImg {
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+  top: -4rem;
+  right: 0;
+  height: 100vh;
+  /* width: 30vw; */
+}
+.introContent {
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: cursive;
+}
+.introText {
+  font-size: larger;
+}
+.hello {
+  font-size: 1.75rem;
+  font-weight: 100;
+}
+.name {
+  color: yellow;
+}
+.introPara {
+  font-size: large;
+  font-weight: 300;
+}
+@media screen and (max-width: 900px) {
+  .backgroundImg {
+    right: -10vw;
+  }
+  .introContent {
+    font-size: 5vw;
+  }
+}
